@@ -1,1 +1,139 @@
 /* your code here */
+* {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: #000;
+      }
+      .product {
+        width: 90%;
+        height: 100vh;
+        background-color: #25be46;
+      }
+      .product__photo{
+				background-color: yellowgreen;
+				width: 280px;
+				height: 450px;
+				position: absolute;
+				top: 100px;
+				left: 320px;
+				border-radius: 5px;
+				z-index: 2;
+			}
+			.photo-main img{
+				position: absolute;
+				left: -50px;
+				top: 50px;
+				width: 250px;
+			}
+			.controls{
+				display: flex;
+				justify-content: space-between;
+				padding: 10px;
+				color: #fff;
+				
+			}
+			.photo-album{
+				width: 100%;
+				position: absolute;
+				bottom: 0;
+				padding: 20px 0;
+				background-color: #fff;
+				border-radius: 5px;
+			}
+			.photo-album ul{
+				display: flex;
+				justify-content: flex-end;
+				gap: 5px;
+				list-style: none;
+				margin-right: 10px;
+				
+			}
+			.photo-album ul img{
+				width: 40px;
+				margin-right: 10px;
+				border: 1px solid #ccc;
+			}
+
+			.product__info{
+				position: absolute;
+				left: 360px;
+				top: 70px;
+				width: 500px;
+				height: 510px;
+				background-color: #fff;
+				border-radius: 5px;
+				z-index: 1;
+			}
+			.title{
+				position: absolute;
+				right: 55px;
+				top: 50px;
+				
+			}
+			.title h1{
+				font-size: 24px;
+				font-weight: bold;
+				color: #212121;
+			}
+			.title span{
+				font-size: 10px;
+				color: #747474;
+			}
+			.price{
+				position: absolute;
+				right: 115px;
+				top: 130px;
+				font-size: 18px;
+				color: red;
+			}
+			.price span{
+				font-size: 3rem;
+			}
+			.variant{
+				position: absolute;
+				right: 65px;
+				top: 230px;
+			}
+			.variant h3{
+				font-size: 12px;
+				color: #a7a7a7;
+				font-weight: bolder;
+			}
+			.variant ul{
+				display: flex;
+				justify-content: flex-end;
+				align-items: center;
+				list-style: none;
+				padding-left: 10px;
+			}
+			.variant ul img{
+				width: 30px;
+				margin-left: 10px;
+				margin-top: 15px;
+			}
+			.green-apple{
+				border: 1px solid #ccc;
+			}
+			.description{
+				position: absolute;
+				right: 20px;
+				top: 320px;
+				font-size: 12px;
+			}
+			.description h3{
+				color: #a7a7a7;
+			}
+			.description ul{
+				margin-top: 10px;
+				margin-left: 20px;
+			}
+			.description button{
+				margin-top: 15px;
+				padding: 15px 30px;
+				border: none;
+				color: #fff;
+				background-color: #f80b0bde;
+				border-radius: 5px;
+			}
